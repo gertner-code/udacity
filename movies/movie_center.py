@@ -1,19 +1,8 @@
 from media import Movie
 import webbrowser
 import fresh_tomatoes
-'''
-toy_story = Movie("Toy Story",
-                        "A story of a boy and his toys that come to life.",
-                        "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
 
-avatar = Movie("Avatar",
-                     "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=-9ceBgWV8io")
-'''
-
-
+# calls to Movie initializing each instance with the correct data
 ghost_in_the_shell = Movie("Ghost in the Shell",
                             "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
                             "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/728/gits-400x600.jpg",
@@ -44,5 +33,7 @@ the_last_crusade = Movie("Indiana Jones and the Last Crusade",
                           "https://images-na.ssl-images-amazon.com/images/I/511AHRR6yKL._SY450_.jpg",
                           "https://www.youtube.com/watch?v=a6JB2suJYHM")
 
+#list of all instances of Movie
 movies = [ghost_in_the_shell, shawshank, dark_knight, spirited_away, fifth_element, the_last_crusade]
+#creates webpage using the above list
 fresh_tomatoes.open_movies_page(movies)
