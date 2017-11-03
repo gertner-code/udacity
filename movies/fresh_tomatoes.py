@@ -3,6 +3,7 @@ import os
 import re
 
 # Styles and scripting for the page
+# added title text size to fix problem that arose due to long titles
 main_page_head = '''
 <head>
     <meta charset="utf-8">
@@ -122,6 +123,7 @@ main_page_content = '''
 '''
 
 # A single movie entry html template
+#added class title to adjust text size
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
