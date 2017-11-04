@@ -3,10 +3,10 @@
 This repository contains all small projects related to Udacity.
 Projects are only those specifically labeled by Udacity as such and
 the size small will be considered 1 main page, containing the majority of
-the code, and nor more than 4 additional pages, containing classes, html, css,
+the code, and no more than 4 additional pages, containing classes, html, css,
 etc.
 
-Projects 
+Projects
 
 movies:
 
