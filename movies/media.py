@@ -2,9 +2,10 @@ import webbrowser
 
 
 class Movie():
-    """This class provides a way to store movie related information and open movie trailers."""
+    """This class stores movie related information and open movie trailers."""
 
-    def __init__ (self, title, storyline, poster_image_url, trailer_youtube_url):
+    def __init__(self, title, storyline,
+                 poster_image_url, trailer_youtube_url):
         # initializes instanced variables
         self.title = title
         self.storyline = storyline
